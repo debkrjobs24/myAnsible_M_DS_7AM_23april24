@@ -15,9 +15,3 @@
 
 [redhatservers]
 172.31.34.9
-
-
-[mywebservers:vars]
-var=value
-mywebpackubuntu= apache2
-mywebpackredhat= httpd
