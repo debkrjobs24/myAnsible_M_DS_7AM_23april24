@@ -13,3 +13,5 @@
       name: "{{myjavapackonredhat}}"
       state: present
      when: ansible_os_family=="RedHat"
+
+# ansible enginee always gives more priority to host_var than group_var
