@@ -1,0 +1,13 @@
+---
+ - hosts: 172.31.31.154
+   become: yes
+   tasks: 
+   - name: I want to create folder
+     file:
+      path: /home/maha/myfolder
+      state: directory
+
+   - name: i want to create a file
+     file:
+      path: /home/maha/myfolder/myfirstfile
+      state: touch
