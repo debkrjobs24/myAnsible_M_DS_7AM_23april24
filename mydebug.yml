@@ -8,4 +8,4 @@
 
    - name: I want to see(display) First task result
      debug:
-      msg: "{{}}"
+      msg: "{{myresult}}"
