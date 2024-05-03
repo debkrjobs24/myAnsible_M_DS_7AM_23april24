@@ -19,7 +19,7 @@
           dest: /home/maha/myfolder/apache-tomcat-10.0.10.tar.gz
           force_basic_auth: yes
 
- - name: i want install apache2 webserver
-   apt:
-     name: apache2
-     state: present
+   - name: i want install apache2 webserver
+     apt:
+      name: apache2
+      state: present
